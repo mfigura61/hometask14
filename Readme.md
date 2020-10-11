@@ -128,7 +128,7 @@ latest: digest: sha256:c62ec98d57e1ebfe442f349bc2770c4db667d14d6cf8dc1ea6b734fcd
 
 3. Создайте кастомные образы nginx и php, объедините их в docker-compose (файлы во вложении)
 
-- Переходим туда где у нас храниться файл docker-compose.yml и выполняем:
+- Переместимся в директорию, где у нас храниться файл docker-compose.yml и выполняем:
 ```
 sudo docker-compose up -d
 [sudo] пароль для mike:
