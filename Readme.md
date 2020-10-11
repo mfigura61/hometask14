@@ -48,7 +48,8 @@
 - После чего собираем наш образ командой ```[mike@mike-dell nginx-alpine]$ sudo docker build -t mf/myimage:nginx .```
 
 - Далее можем запустить наш контейнер командой
-```[mike@mike-dell nginx-alpine]$ sudo docker run -d -p 80:80 e0ec3a4eaf2c
+```
+[mike@mike-dell nginx-alpine]$ sudo docker run -d -p 80:80 e0ec3a4eaf2c
 1293c6cdaec64d942070f49b41c3369164d7ac7df729f477261c46f3d2161209
 ```
 
